@@ -51,7 +51,7 @@ pipe = PipelineController(
     version='0.0.1'
 )
 
-pipe.set_default_execution_queue('CPU Queue')
+pipe.set_default_execution_queue('default')
 pipe.add_parameter('training_seeds', [42, 420, 500])
 pipe.add_parameter('query_date', '2022-01-01')
 

@@ -1,2 +1,2 @@
-PROJECT_NAME = 'Project Team NASA'
+PROJECT_NAME = 'Asteroid NASA'
 PIPELINE_NAME = 'NASA Pipeline'

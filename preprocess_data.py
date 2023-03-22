@@ -50,8 +50,8 @@ new_dataset = Dataset.create(
 )
 new_dataset.add_files(preprocessed_data_folder / 'X.csv')
 new_dataset.add_files(preprocessed_data_folder / 'y.csv')
-new_dataset.get_logger().report_table(title='X data', series='head', table_plot=X.head())
-new_dataset.get_logger().report_table(title='y data', series='head', table_plot=y.head())
+# new_dataset.get_logger().report_table(title='X data', series='head', table_plot=X.head())
+# new_dataset.get_logger().report_table(title='y data', series='head', table_plot=y.head())
 new_dataset.finalize(auto_upload=True)
 
 # Log to console which dataset ID was created
